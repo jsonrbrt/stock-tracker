@@ -35,14 +35,14 @@ The app integrates with the **Twelve Data API** to fetch live market data and de
 
 This project uses the Twelve Data API.
 
-> **Note:**
+**Note:**
 • To run the project, you will need to create your own API key.
 • Create a free API key at https://twelvedata.com
 • Copy 'config.example.js'
 • Rename it to 'config.js'
 • Add your API key inside
 
-> API keys are stored locally and are **not committed** to the repository.
+API keys are stored locally and are **not committed** to the repository.
 
 
 ---
@@ -52,16 +52,17 @@ This project uses the Twelve Data API.
 1. **Clone the repository**
 ```bash
 git clone https://github.com/jsonrbrt/stock-tracker.git
+```
 
 2. Navigate to the project directory
 cd your-repo-name
 
 3. Add your API key
-• Create a file (or update your JS file) with:
+Create a file (or update your JS file) with:
 const API_KEY = "Your_API_key_here";
 
 4. Open the app
-• Open index.html in your browser
+Open index.html in your browser
 
 ---
 
