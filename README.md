@@ -36,11 +36,11 @@ The app integrates with the **Twelve Data API** to fetch live market data and de
 This project uses the Twelve Data API.
 
 **Note:**
-• To run the project, you will need to create your own API key.
-• Create a free API key at https://twelvedata.com
-• Copy 'config.example.js'
-• Rename it to 'config.js'
-• Add your API key inside
+- To run the project, you will need to create your own API key.
+- Create a free API key at https://twelvedata.com
+- Copy 'config.example.js'
+- Rename it to 'config.js'
+- Add your API key inside
 
 API keys are stored locally and are **not committed** to the repository.
 
@@ -55,23 +55,26 @@ git clone https://github.com/jsonrbrt/stock-tracker.git
 ```
 
 2. Navigate to the project directory
+
 cd your-repo-name
 
 3. Add your API key
+
 Create a file (or update your JS file) with:
 const API_KEY = "Your_API_key_here";
 
 4. Open the app
+
 Open index.html in your browser
 
 ---
 
 ## Takeaways
-• Working with third-party APIs using fetch and async/await
-• Handling query parameters and API response errors
-• Managing application state with localStorage
-• Building dynamic UI components without frameworks
-• Implementing user-friendly error handling and loading states
+- Working with third-party APIs using fetch and async/await
+- Handling query parameters and API response errors
+- Managing application state with localStorage
+- Building dynamic UI components without frameworks
+- Implementing user-friendly error handling and loading states
 
 ---
 
