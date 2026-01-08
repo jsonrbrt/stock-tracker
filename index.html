@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stock Tracker</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="app-container">
+      <header class="header">
+        <h1>Stock Price Tracker</h1>
+        <div class="input-container">
+          <input
+            type="text"
+            id="stock-input"
+            placeholder="Enter Stock Symbol (e.g. NVDA)"
+          />
+          <button id="search-btn">Search</button>
+        </div>
+      </header>
+      <h2>Stock Details</h2>
+      <div id="stock-card"></div>
+      <h2>Portfolio Summary</h2>
+      <div id="portfolio-summary">
+        Total Portfolio Value: $<span id="portfolio-total">0.00</span>
+      </div>
+      <h2>Watchlist</h2>
+      <div id="watchlist"></div>
+      <div id="watchlist-cards-container"></div>
+    </div>
+
+    <!-- Picker Modal -->
+    <div id="picker-modal" class="modal hidden">
+      <div class="modal-content">
+        <h3>Select a stock</h3>
+        <ul id="picker-list"></ul>
+        <button id="close-modal">Cancel</button>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>

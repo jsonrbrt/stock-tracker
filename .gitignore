@@ -1,0 +1,12 @@
+# Environment variables
+.env
+
+# OS files
+.DS_Store
+
+# Editor configs
+.vscode/
+config.js
+
+# Logs
+*.log
